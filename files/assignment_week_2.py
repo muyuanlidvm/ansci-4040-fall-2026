@@ -23,6 +23,14 @@ def convert_milk_yield(value):
     input: value: milk yield in kg
     output: milk yield in lbs
     """
+    return value * 0.453592
+
+def coonvert_milk_yield_kg_to_lbs(value):
+    """
+    Descrition: convert milk yield from kg to lbs
+    input: value: milk yield in kg
+    output: milk yield in lbs
+    """
     return value * 2.20462
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository. 
