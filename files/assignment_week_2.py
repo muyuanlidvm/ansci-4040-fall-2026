@@ -19,13 +19,11 @@
 #base function 
 def convert_milk_yield(value):
     """
-    Descrition: convert milk yield from pounds to kilograms
-    input: value: milk yield in pounds
-    output: milk yield in kilograms
+    Descrition: convert milk yield from kg to lbs
+    input: value: milk yield in kg
+    output: milk yield in lbs
     """
-    return value * 0.453592
-
-
+    return value * 2.20462
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository. 
 # Make sure each step to push to your fork and not the original repo.
@@ -34,16 +32,6 @@ def convert_milk_yield(value):
 
 #Step 6: On the main branch, create a new function also called "convert_milk_yield" that converts milk yield from kilograms to pounds.
 # Save your change. 
-
-#base function 
-def convert_milk_yield(value):
-    """
-    Descrition: convert milk yield from kg to lbs
-    input: value: milk yield in kg
-    output: milk yield in lbs
-    """
-    return value * 2.20462
-
 
 #Step 7: Commit your changes to the main branch and push it to the remote repository.
 
