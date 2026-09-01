@@ -25,8 +25,6 @@ def convert_milk_yield(value):
     """
     return value * 0.453592
 
-
-
 #Step 4: Commit your changes to the new branch and push it to the remote repository. 
 # Make sure each step to push to your fork and not the original repo.
 
