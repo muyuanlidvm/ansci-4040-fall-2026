@@ -16,7 +16,7 @@
 #Include documentation with your written function in the functions docstring. 
 # safe the file
 
-#base function 
+#base function lb to kg
 def convert_milk_yield_lb_to_kg(value):
     """
     Descrition: convert milk yield from lb to kg
@@ -24,7 +24,7 @@ def convert_milk_yield_lb_to_kg(value):
     output: milk yield in kg
     """
     return value * 0.453592
-
+#base function kg to lb
 def convert_milk_yield_kg_to_lb(value):
     """
     Descrition: convert milk yield from kg to lb
