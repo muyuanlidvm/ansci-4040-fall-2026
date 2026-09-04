@@ -17,19 +17,19 @@
 # safe the file
 
 #base function 
-def convert_milk_yield(value):
+def convert_milk_yield_lb_to_kg(value):
     """
-    Descrition: convert milk yield from kg to lbs
-    input: value: milk yield in kg
-    output: milk yield in lbs
+    Descrition: convert milk yield from lb to kg
+    input: value: milk yield in lb
+    output: milk yield in kg
     """
     return value * 0.453592
 
-def coonvert_milk_yield_kg_to_lbs(value):
+def convert_milk_yield_kg_to_lb(value):
     """
-    Descrition: convert milk yield from kg to lbs
+    Descrition: convert milk yield from kg to lb
     input: value: milk yield in kg
-    output: milk yield in lbs
+    output: milk yield in lb
     """
     return value * 2.20462
 
